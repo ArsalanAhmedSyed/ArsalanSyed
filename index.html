@@ -1,0 +1,612 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Arsalan Ahmed Syed</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- Fonts links here -->
+		<link href="https://fonts.cdnfonts.com/css/berlin-sans-fb-demi" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,900;1,900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,900&display=swap" rel="stylesheet">
+		<!-- Fonts links here -->
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li style ="font-family: Poppins"><a href="#Welcome">Welcome</a></li>
+							<li style ="font-family: Poppins"><a href="#intro">About Me</a></li>
+							<li style ="font-family: Poppins"><a href="#Portfolio">Portfolio</a></li>
+							<li style ="font-family: Poppins"><a href="#SocialMedia">Social Media</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+			<!---------------------------------------------------------------------------------------------------->
+			<!---------------------------------------------------------------------------------------------------->
+			<!---------------------------------------------------------------------------------------------------->
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Welcome -->
+				<section id="Welcome" class="wrapper style1 fullscreen fade-up">
+					<div class="inner">
+						<h1>Arsalan Syed</h1>
+						<p style="font-size:auto">I am a gameplay programming student,</br> aspiring to become a senior gameplay programmer in the future.</p>
+						<hr>
+
+						<h1 style="line-height: 0.9;"> <a class="image" ><img src="images/SkillIcon_img.png" style= "width: 70px; height: 70px;" /></a> SKILLS</h1>
+						<p >⚙ Technical Design</br>⚙ Gameplay Programming </br> [C++] [C#] [UE5] [Unity] [HTML] </p>
+						<hr>
+
+						<h1> <a class="image" style="Top: 20px;"><img src="images/BookIcon_img.png" style= "width: 60px; height: 80px;" /></a> EDUCATION</h1>
+						<h4> Staffordshire University 2021 - Present </h4>
+						<p> BSc in Computer Game Design and programming </br>
+							Area Explored: C++, C#, SDL, DirectX, Unreal Engine, Unity, Team Project, Level Design (Hammer Engine)</p>
+						<ul class="actions">
+							<li><a href="#intro" class="button scrolly"> About Me ▼ </a></li>
+						</ul>
+					</div>
+				</section>
+
+				<!---------------------------------------------------------------------------------------------------->
+				<!---------------------------------------------------------------------------------------------------->
+				<!---------------------------------------------------------------------------------------------------->
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<a class="centerImage"><img src="images/SelfPic2.png" /></a>
+							<p>I am currently in my final year studying at Staffordshire University, learning technical design, level design, and prototyping games.
+								 However, I aspire to become a senior gameplay programmer and explore every part of Unreal Engine. Which is why I taught myself Unreal C++.</p>
+								 <p>I am always eager to learn something new and expand my knowledge. The projects below are a perfect example of me trying out new things
+									  and expanding my knowledge in different fields, from designing to programming to making different genres of games.</P>
+								<ul class="actions">
+									<li><a href="#Portfolio" class="button scrolly"> Checkout Portfolio ▼</a></li>
+								</ul>
+						</div>
+					</section>
+
+					<!---------------------------------------------------------------------------------------------------->
+					<!---------------------------------------------------------------------------------------------------->
+					<!---------------------------------------------------------------------------------------------------->
+
+				<!-- Portfolio -->
+					<section id="Portfolio" class="wrapper style1  fade-up" >
+						<h1 style = "text-align:center"> PORTFOLIO CATEGORIES</h1>
+
+					<section>
+					<!-- Control buttons -->
+					<div id="myBtnContainer">
+						<div class ="ListContainer">
+							<button class="btn active" onclick="filterSelection('all')" style ="font-family:Poppins"> Show all</button>
+							<button class="btn" onclick="filterSelection('university')" style ="font-family:Poppins"> University</button>
+							<button class="btn" onclick="filterSelection('personal')" style ="font-family:Poppins"> Personal </button>
+						</div>
+						<div class ="ListContainer">
+							<button class="btn" onclick="filterSelection('cunity')" style ="font-family:Poppins"> C#/Unity</button>
+							<button class="btn" onclick="filterSelection('c++')" style ="font-family:Poppins"> C++</button>
+							<button class="btn" onclick="filterSelection('un5')" style ="font-family:Poppins"> Unreal Engine</button>
+							<button class="btn" onclick="filterSelection('group')" style ="font-family:Poppins"> Team Project</button>
+							<button class="btn" onclick="filterSelection('other')" style ="font-family:Poppins"> Other </button>
+						</div>
+					</div>
+					</section>
+
+					<section>
+						<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+						<div class="container">
+							<!-- MageVenture -->
+							<div class="filterDiv un5; university; c++">
+									<a class="image" id="MageVentureBtn">
+										<img src="images/MageVenture_img.png" alt="" data-position="center center"  />
+										<img src="images/MageVentureOverlay_img.png" alt="" data-position="center center" id="MageVentureOverlayImg" class="imageOverlay"/>
+									</a>
+							</div>
+							<!-- TankWarfair -->
+							<div class="filterDiv un5; university; c++">
+									<a class="image" id="TankWarfairBtn">
+										<img src="images/TankWarfair_img.png" alt="" data-position="center center"  />
+										<img src="images/TankWarfairOverlay_img.png" alt="" data-position="center center" id="TankWarfairOverlayImg" class="imageOverlay"/>
+									</a>
+							</div>
+							<!-- DirectX -->
+							<div class="filterDiv c++; university">
+									<a class="image" id="DirectXBtn">
+										<img src="images/DirectX_img.png" alt="" data-position="center center" />
+										<img src="images/DirectXOverlay_img.png" alt="" data-position="center center" id="DirectXOverlayImg" class="imageOverlay"/>
+									</a>
+								</div>
+							<!-- PopPop -->
+							<div class="filterDiv un5; university">
+									<a class="image" id="PopPopBtn">
+										<img src="images/PopPop_img.png" alt="" data-position="center center"  />
+										<img src="images/PopPopOverlay_img.png" alt="" data-position="center center" id="PopPopOverlayImg" class="imageOverlay"/>
+									</a>
+								</div>
+							<!-- MLD -->
+							<div class="filterDiv other; university">
+									<a class="image" id="MLDBtn">
+										<img src="images/MLD_img.png" alt="" data-position="center center" />
+										<img src="images/MLDOverlay_img.png" alt="" data-position="center center" id="MLDOverlayImg" class="imageOverlay"/>
+									</a>
+								</div>
+
+							<!-- TwoSouls -->
+							<div class="filterDiv cunity; university">
+									<a class="image" id="TwoSoulsBtn">
+										<img src="images/TwoSouls_img.png" alt="" data-position="center center"  />
+										<img src="images/TwoSoulsOverlay_img.png" alt="" data-position="center center" id="TwoSoulsOverlayImg" class="imageOverlay"/>
+									</a>
+							</div>
+							<!-- Lights And Shadow -->
+							<div class="filterDiv un5 group university">
+							  <a class="image" id="LightsAndShadowsBtn">
+							    <img src="images/LightAndShadow_img.png" alt="" data-position="center center"/>
+							    <img src="images/Lights&ShadowsOverlay_img.png" alt="" data-position="center center" id="LightsAndShadowsOverlayImg" class="imageOverlay"/>
+							  </a>
+							</div>
+							<!-- SeasonScape -->
+							<div class="filterDiv group; university; un5">
+								<a class="image" id="SeasonScapeBtn">
+									<img src="images/SeasonScape_img.png" alt="" data-position="center center" />
+									<img src="images/SeasonScapeOverlay_img.png" alt="" data-position="center center" id="SeasonScapeOverlayImg" class="imageOverlay"/>
+								</a>
+							</div>
+							<!-- Mario -->
+							<div class="filterDiv c++ university">
+							  <a class="image" id="MarioBtn">
+							    <img src="images/Mario_Img.png" alt="" data-position="center center"  />
+							    <img src="images/MarioOverlay_img.png" alt="" data-position="center center" id="MarioOverlayImg" class="imageOverlay" />
+							  </a>
+							</div>
+							<!-- SuperFox -->
+							<div class="filterDiv cunity; personal">
+								<a class="image" id="SuperFoxBtn">
+									<img src="images/SuperFox_img.png" alt="" data-position="center center"  />
+									<img src="images/SuperFoxOverlay_img.png" alt="" data-position="center center" id="SuperFoxOverlayImg" class="imageOverlay"/>
+								</a>
+							</div>
+						</div>
+					</section>
+
+					<!-- MageVenture-->
+					<section>
+							<div id="MageVenturePopup" class="Popup">
+							<!-- MageVenture content -->
+							<div class="Popup-content">
+								<span class="close" class="button" id="MageVentureClose">&times;</span>
+								<div class="content">
+									<div class="inner">
+										<h1>Final Year Project</h1>
+										<div class="project-info">
+										<h4 style ="font-family:Poppins"> Project: </h4>
+										<p> 3rd Year, Independent, Unreal Engine, C++ </p> <br />
+										</div>
+										<h4 style ="font-family:Poppins">Learning Outome: </h4>
+										<ul>
+											<li>Gameplay Programming</li>
+											<li>Designer Consideration</li>
+											<li>Design Patterns</li>
+											<li>UML Diagram</li>
+										</ul>
+										<h4 style ="font-family:Poppins">Gameplay Features: </h4>
+										<ul>
+											<li>Abilities (Single & Combo casting)</li>
+											<li>Level Up (Player & Abilities)</li>
+											<li>AI Monsters (Drop Item)</li>
+											<li>Vendor</li>
+											<li>Inventory</li>
+										</ul>
+										<p>This project was my first step towards becoming a gameplay programmer and expanding my Unreal C++ knowledge.
+											It is hard to believe that in 5 months I have managed to learn Unreal C++ and expand my Unreal Engine knowledge,
+											as at the start of it I had no to very little knowledge regarding the gameplay programmer role and Unreal C++.
+											I only had knowledge of Blueprint and creating prototypes in Unreal Engine.</p>
+											<p>Furthermore, I focused on learning UML diagrams and design patterns to improve my programming skills and
+												create flexible or maintainable project. In addition to that, I focused on using data assets and providing
+												tool tips for all the features that were accessible in the editor or blueprint as if I were making them for a designer.</p>
+											<p>I have also taken inspiration from the GAS plugin to create my own mini-ability system, as the project contains attribute setup,
+												 an ability component, and a damage system (based on UGameplayEffect). </p>
+											<p>Overall, the project goal was to create mini-RPG-style gameplay. Focusing on creating flexible code structure as well as easy setup
+												 allowing designers to create new items or gears, as well as easy to tweak properties (in this case using Data Asset). </p> <br />
+										<ul class="actions">
+											<li><a href="https://youtu.be/GpVKf60VEKw" target="_blank" class="button">Gameplay Video</a></li>
+											<li><a href="https://youtu.be/fykN4P2kWIE" target="_blank" class="button">Project Setup Video</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="https://staffsuniversity-my.sharepoint.com/:w:/g/personal/s017136l_student_staffs_ac_uk/ET51Fm1WHEJFtuGjoaTbGA0BcEkIeRWFATtA8c3UHjlkPg?e=efdqGZ" target="_blank" class="button">Structure Document</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- POPOP-->
+					<section>
+							<div id="PopPopPopup" class="Popup">
+							<!-- Popup content -->
+							<div class="Popup-content">
+								<span class="close" class="button" id="PopPopClose">&times;</span>
+								<div class="content">
+									<div class="inner">
+										<h1>Local Multiplayer</h1>
+										<div class="project-info">
+										<h4 style ="font-family:Poppins"> Project: </h4>
+										<p> 2nd Year, Independent, Unreal Engine<p>
+										</div>
+										<h4 style ="font-family:Poppins">Features: </h4>
+										<ul>
+											<li>Initialise Chain (Managers)</li>
+											<li>Game Mode (CTF, TDM)</li>
+											<li>Console Controller Input</li>
+											<li>Blueprint</li>
+										</ul>
+										<p>This was part of a prototype module where I created a local multiplayer game with two types of game modes (CTF and TDM).
+											The project contains managers and multiple game mode classes for each game mode, with a proper initialization chain setup and blueprint structure.</p>
+											<p>Gameplays wise the game is inspired by Fall Guys, as the design of the character and the map may showcase that. The idea was to create a
+												fun family-friendly game that even kids can play, with the classic game modes that almost every team based game has.</p> <br />
+										<ul class="actions">
+											<li><a href="https://youtu.be/6JbGtI0I0hc" target="_blank" class="button">Gameplay Demo</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- TANK WARFAIR-->
+					<section>
+							<div id="TankWarfairPopup" class="Popup">
+							<!-- Popup content -->
+							<div class="Popup-content">
+								<span class="close" class="button" id="TankWarfairClose">&times;</span>
+								<div class="content">
+									<div class="inner">
+										<h1>Tank WarFair</h1>
+										<div class="project-info">
+										<h4 style ="font-family:Poppins"> Project: </h4>
+										<p> Blueprint, C++, UE5, Independent<p>
+										</div>
+										<h4 style ="font-family:Poppins">World of Tanks Features: </h4>
+										<ul>
+											<li>Advance Tank feel and look</li>
+											<li>Camera (First-Person, Third-Person, Top view)</li>
+											<li>Accuracy system</li>
+											<li>Damage Tank parts (Causing unique performance issues)</li>
+											<li>Sound Effects (MetaSounds)</li>
+											<li>Simple AI </li>
+										</ul>
+											This was a prototype project; I wanted to work on something new, and so I chose to recreate the World of Tanks features,
+											as I have never worked on vehicles before, and I was interested in how tanks are made in a game.  </p>
+											<p>At first, the project was supposed to be a blueprint, but I later converted the entire work to C++
+												 towards the end as I wanted more projects to show off my Unreal C++ knowledge.<br />
+												 In addition to that, I also learned to use MetaSounds and tried recreating World of Tanks sound effects.</p> <br />
+										<ul class="actions">
+											<li><a href="https://youtu.be/osb50Mc8sKo" target="_blank" class="button">Watch Gameplay</a></li>
+											<li><a href="https://staffsuniversity-my.sharepoint.com/:w:/g/personal/s017136l_student_staffs_ac_uk/EUh0Qy_xfIBIuamICj4oggEBdoGh5vLxv2Xc9hxk_boqeA?e=YDad46" target="_blank" class="button">Design Document</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- MLD -->
+					<section>
+
+							<div id="MLDPopup" class="Popup">
+							<!-- Popup content -->
+							<div class="Popup-content">
+								<span class="close" class="button" id="MLDClose">&times;</span>
+								<div class="content">
+									<div class="inner">
+										<h1>Multiplayer Level Design</h1>
+										<div class="project-info">
+										<h4 style ="font-family:Poppins"> Project: </h4>
+										<p> 3rd Year, Independent, Hammer Engine<p>
+										</div>
+										<h4 style ="font-family:Poppins">Learning Outome: </h4>
+										<ul>
+											<li>Hammer Engine</li>
+											<li>Multiplayer Level Design</li>
+											<li>Level Iteration</li>
+											<li>Level Analyse (research)</li>
+										</ul>
+										<p>This was 8 weeks project where I learned to design Multiplayer Level as well as apply playtesting feedback to my level and improve it. Additionally,
+											I learned to use Hammer Engine to make the Team Fortress Two level, which is an old engine and it made me really appreciate how far Game Engines have come.</p> <br />
+										<ul class="actions">
+											<li><a href="https://youtu.be/1zRGNoIup3U" target="_blank" class="button">Watch Level</a></li>
+											<li><a href="https://www.dropbox.com/scl/fi/bfll8iz2c8infe3pryvmj/LDD-Custom-Font.pdf?rlkey=egua87qcfoxm7qaos6fiq2q42&dl=0" target="_blank" class="button">Design Document</a></li>
+											<li><a href="https://www.dropbox.com/scl/fi/efxlq25htcrqo0ok334k3/UTD-Custom-Font.pdf?rlkey=pabmxk5pv6slni8ofh6tobixf&dl=0" target="_blank" class="button">Iteration Document</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- SEASON SCAPE-->
+					<section>
+							<div id="SeasonScapePopup" class="Popup">
+							<!-- Popup content -->
+							<div class="Popup-content">
+								<span class="close" class="button" id="SeasonScapeClose">&times;</span>
+								<div class="content">
+									<div class="inner">
+										<h1>SeasonScape</h1>
+										<div class="project-info">
+										<h4 style ="font-family:Poppins"> Project: </h4>
+										<p> Blueprint, UE5, Game Jam, Techincal Designer<p>
+										</div>
+										<h4 style ="font-family:Poppins">My Contribution: </h4>
+										<ul>
+											<li>Gameplay features</li>
+											<li>UI Design & UI Interaction</li>
+											<li>Level Created</li>
+											<li>Balance & PlayTesting</li>
+											<li>Sound Effects</li>
+										</ul>
+										<p>This was one week Game Jame project, during which I took the role of leadership as I was working with 1st years, due to having the most experience in game development
+											as well as working in a team, I knew how to manage my team and had more confidence in my skills. <br /> I made sure that each of my team member were contributing to the game by
+											managing tasks according to their role and what they were trying to add to their portfolio. Addition to that, due to a team member missing I had to do double the amount
+											of work, as I was the only one with strong unreal engine skills to put my artist work and designers’ ideas or level into the engine and make a complete
+											game within a week. </p>
+											<h5 style ="font-family:Poppins">Learning Outcome: </h5>
+											<p>For this project, I learned to create a 2D game in Unreal Engine. I already had experience making 2D games in Unity,
+												and so I wanted to do something new for this game jam that was also based on portfolio projects.</p>
+										<ul class="actions">
+											<li><a href="https://youtu.be/2bcOSGyy5tI" target="_blank" class="button">Watch Gameplay</a></li>
+											<li><a href="https://arsalan-syed.itch.io/seasonscape" target="_blank" class="button">Download Game</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- DIRECTX-->
+					<section>
+							<div id="DirectXPopup" class="Popup">
+							<!-- Popup content -->
+							<div class="Popup-content">
+								<span class="close" class="button" id="DirectXClose">&times;</span>
+								<div class="content">
+									<div class="inner">
+										<h1>DIRECTX</h1>
+										<div class="project-info">
+										<h4 style ="font-family:Poppins"> Project: </h4>
+										<p> C++, DirectX 11, Independent, 2nd Year<p>
+										</div>
+										<h4 style ="font-family:Poppins">Physics Learned: </h4>
+										<ul>
+											<li>Force</li>
+											<li>Rigidbody</li>
+											<li>Particles</li>
+											<li>Collision (Sphere, Box, Plane)</li>
+										</ul>
+									<h4 style ="font-family:Poppins">Graphics Learned: </h4>
+									<ul>
+										<li>Rendering objects (setting transform)</li>
+										<li>Transparency(Blending)</li>
+										<li>Linear Fog</li>
+										<li>Lighting (Ambient, Diffuse, Specular)</li>
+										<li>Texture</li>
+										<li>Skybox</li>
+									</ul>
+										<p>This was a 2nd year module where I learned to make use of DirectX and implement the features listed above. Although I covered the basics of DirectX,
+											I was able to learn how to setup basic game engine features for graphics and physics.
+											This project helped me develop my DirectX understanding and improve my C++ knowledge, as I learned to create components and make better use of OOP.</p> <br />
+										<ul class="actions">
+											<li><a href="https://youtu.be/VmROYR5Xcb0" target="_blank" class="button">Watch Demo</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- TWO SOULS -->
+				<section>
+							<div id="TwoSoulsPopup" class="Popup">
+							<!-- Popup content -->
+							<div class="Popup-content">
+								<span class="close" class="button" id="TwoSoulsClose">&times;</span>
+								<div class="content">
+									<div class="inner">
+										<h1>TWO SOULS</h1>
+										<div class="project-info">
+											<h4 style ="font-family:Poppins">Project:</h4>
+											<p>Unity, C#, Uni 2nd year, Independent </p>
+										</br>
+											<h4 style ="font-family:Poppins">Features Learned:</h4>
+											<ul>
+												<li>UI</li>
+												<li>Possession</li>
+												<li>Advance C#</li>
+												<li>Input System package</li>
+											</ul>
+										</div>
+										<hr>
+										<p>I worked on creating proper documentation for the design of the game as well as using Industry standard
+											techniques for scheduling and creating sprints using agile methodology. The game is a single player puzzle-based game where players need to
+											make use of both characters with unique abilities to escape the lab.</p>
+											<h5 style ="font-family:Poppins">Learning Outcome: </h5>
+											<p>This project taught me how to stay motivated for a long-term project, manage my time, and reflect on my progress to make sure I am on track.
+												 Furthermore, I learned to improve my programming skills by focusing more on creating optimised code structures.</p>
+										<ul class="actions">
+											<li style ="font-family:Berlin Sans FB Demi"><a href="https://youtu.be/qMyb2hdprYs" target="_blank" class="button">Watch Gameplay</a></li>
+											<li><a href="https://www.dropbox.com/scl/fi/zbk4c1go0ifv0qkj814qm/s017136l_IGD1_DesignDoc-2.docx?rlkey=t173ca3429y3mxayw8ad9pq88&dl=0" target="_blank" class="button">Design Document</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+				</section>
+
+					<!-- MARIO -->
+					<section>
+							<div id="MarioPopup" class="Popup">
+							<!-- Popup content -->
+							<div class="Popup-content">
+								<span class="close" class="button" id="MarioClose">&times;</span>
+								<div class="content">
+									<div class="inner">
+										<h1>MARIO</h1>
+										<div class="project-info">
+											<h4 style ="font-family:Poppins"> Project: </h4>
+											<p>SDL, C++, Uni 1st year, Independent</p>
+										</div>
+											<div class="project-info">
+												<h4 style ="font-family:Poppins"> Features Learned: </h4>
+												<ul>
+													<li>Sprite Animation setup</li>
+													<li>Basic AI</li>
+													<li>Collision</li>
+												</ul>
+										</div>
+									<hr>
+										<p>I redesigned the original Mario game using the Simple Direct Media Layer (SDL). I learned to create basic AI that changes direction
+											 when hitting a wall and setup an enemy collision system, as well as tile collision. Furthermore, this was my first C++ project where
+											 I did not use an engine or existing framework to make a game.</p>
+										<ul class="actions">
+											<li><a href="https://youtu.be/QJWQcQv0O8k" target="_blank" class="button">Watch Gameplay</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- SUPER FOX -->
+					<section>
+
+							<div id="SuperFoxPopup" class="Popup">
+							<!-- Popup content -->
+							<div class="Popup-content">
+								<span class="close" class="button" id="SuperFoxClose">&times;</span>
+								<div class="content">
+									<div class="inner">
+										<h1>SUPER FOX</h1>
+										<div class="project-info">
+											<h4 style ="font-family:Poppins">Project:</h4>
+											<p> Unity, 2020, Independent</p>
+											</br>
+											<h4 style ="font-family:Poppins">Features:</h4>
+												<ul>
+													<li>Sprite Animation</li>
+													<li>Mini Tasks (quest)</li>
+													<li>C# Gameplay Features (traps, AI enemies, pickup...)</li>
+													<li>2D Tiles level design</li>
+												</ul>
+										</div>
+									<hr>
+										<p>A mini-project that I worked on before starting university to get a head start. This is also my first ever game that I made.
+											 The game was inspired by the classic Mario game, and it includes side quests such as collecting specific amounts of cherries,
+											 killing monsters by jumping on them, and finding hidden gems.</p>
+										<ul class="actions">
+											<li style ="font-family:Berlin Sans FB Demi"><a href="https://youtu.be/hAQjtdMM970" target="_blank" class="button">Watch Gameplay</a></li>
+											<li style ="font-family:Berlin Sans FB Demi"><a href="https://arsalan-syed.itch.io/gamu" target="_blank" class="button">Download Game</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- LIGHT AND SHADOW -->
+				<section>
+						<div id="LightsAndShadowsPopup" class="Popup">
+						<!-- Popup content -->
+						<div class="Popup-content">
+							<span class="close" class="button" id="LightsAndShadowsClose">&times;</span>
+							<div class="content">
+								<div class="inner">
+									<h1>LIGHTS AND SHADOWS</h1>
+									<div class="project-info">
+										<h4 style ="font-family:Poppins">Project:</h4>
+										<p> [CGD'23] UE5 // Team Project > Role - Techincal designer</p>
+									</br>
+										<h4 style ="font-family:Poppins">Features:</h4>
+											<ul>
+												<li>Collaburation</li>
+												<li>Bug Fixes</li>
+												<li>UI Interaction</li>
+											</ul>
+									</div>
+									<hr>
+									<p>This was 6 weeks project that took 20+ people to work together and make a game.
+										 My role as a junior technical designer was to work with the final year student seniors and other juniors to create features for the game.
+										 I worked on creating functionality such as, Object highlight using materials, the bag weight system, interaction with the artefact and performing bug fixes.</p> <br />
+									<ul class="actions">
+										<li><a href="https://www.youtube.com/watch?v=JG9gvrKbYKU" target="_blank" class="button">Watch Gameplay</a></li>
+										<li><a href="https://psychowren.itch.io/lights-shadows" target="_blank" class="button">Download Game</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+	</section>
+<!---------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------->
+
+				<!-- Social Media -->
+				<footer id="footer" class="wrapper style1">
+					<section id="SocialMedia" class="wrapper style1 fade-up">
+						<div class="inner">
+								<section>
+									<ul class="contact">
+										<li>
+											<h1 style="font-size: 35px;">SOCIAL MEDIA</h1>
+											<hr>
+											<ul class="icons" style="font-size: 42px;">
+												<li><a href="" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/arsalan-syed-1221ab297/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+						</div>
+					</section>
+			</footer>
+
+			<!-- footer -->
+			<footer id="footer" class="wrapper style2-alt">
+				<div class="inner">
+					<ul class="menu">
+					 <li>© Arsalan Ahmed Syed, 2023. Design:</li>
+					 <lit>
+						 <a href="http://html5up.net">HTML5 UP</a>
+					 </li>
+				 </ul>
+			 </div>
+		 </footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
